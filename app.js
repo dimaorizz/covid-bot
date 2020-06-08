@@ -17,7 +17,6 @@ bot.command('world', async ctx => {
     `<b>Статистика по миру</b>\n
 <b>Всего случаев заражения COVID:</b> <i>${worldStats.total_cases.toLocaleString()}</i>
 <b>Выздоровело:</b> <i>${worldStats.total_recovered.toLocaleString()}</i>
-<b>Болеют:</b> <i>${worldStats.total_unresolved.toLocaleString()}</i>
 <b>Умерло:</b> <i>${worldStats.total_deaths.toLocaleString()}</i>
 <b>Новых случаев сегодня:</b> <i>${worldStats.total_new_cases_today.toLocaleString()}</i>
 <b>Смертей сегодня:</b> <i>${worldStats.total_new_deaths_today.toLocaleString()}</i>`;
@@ -35,7 +34,6 @@ bot.command('ukraine', async ctx => {
     `<b>Статистика по Украине</b>\n
 <b>Всего случаев заражения COVID:</b> <i>${ukraineStats.total_cases.toLocaleString()}</i>
 <b>Выздоровело:</b> <i>${ukraineStats.total_recovered.toLocaleString()}</i>
-<b>Болеют:</b> <i>${ukraineStats.total_unresolved.toLocaleString()}</i>
 <b>Умерло:</b> <i>${ukraineStats.total_deaths.toLocaleString()}</i>
 <b>Новых случаев сегодня:</b> <i>${ukraineStats.total_new_cases_today.toLocaleString()}</i>
 <b>Смертей сегодня:</b> <i>${ukraineStats.total_new_deaths_today.toLocaleString()}</i>`;
